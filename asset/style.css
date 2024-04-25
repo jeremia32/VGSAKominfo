@@ -1,0 +1,71 @@
+/* footer */
+.footer{
+    display: flex;
+    background-color: #0673B7;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 100px;
+}
+
+.footerPart {
+    display: inline-block; /* Agar elemen .footerPart berada dalam satu baris */
+    vertical-align: top; /* Menjaga elemen di atas satu garis */
+    width: 33%;
+    padding: 1rem 2rem; /* Memberikan jarak antara elemen */
+    margin-right: 20px; /* Memberikan jarak antara elemen */
+    border-right: 1px solid white; /* Garis vertikal putih */
+}
+
+.footerPart:last-child {
+    border-right: none; /* Menghilangkan garis vertikal pada elemen terakhir */
+}
+
+.judulFooter{
+    font-size: 18px;
+    font-weight: bold;
+}
+.copyRight{
+    text-align: center;
+    padding: 1rem;
+    font-size: 14px;
+}
+.tombolCari{
+    background-color:#451773 ;
+    color: white;
+    border: none;
+}
+.tombolCari:hover{
+    background-color: rgb(42, 9, 78);
+    cursor: pointer;
+}
+.inputCari{
+    border-radius: 0; border: none;
+}
+.inputCari:focus{
+    outline: 1px solid black;
+    border-radius: 0;
+}
+
+/* teks */
+h2 {
+    font-size: 2rem;
+    color: #333; /* Warna teks */
+    text-align: center; /* Posisi teks di tengah */
+    border-bottom: 2px solid #ccc; /* Garis bawah */
+    padding-bottom: 10px; /* Jarak antara teks dan garis bawah */
+    margin-bottom: 20px; /* Jarak antara elemen dengan elemen berikutnya */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+    font-weight: bold; /* Ketebalan teks */
+}
+h3 {
+    font-size: 2rem;
+    color: #333; /* Warna teks */
+    text-align: center; /* Posisi teks di tengah */
+    padding-bottom: 10px; /* Jarak antara teks dan garis bawah */
+    margin-bottom: 20px; /* Jarak antara elemen dengan elemen berikutnya */
+    font-weight: bold; /* Ketebalan teks */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* proffill */
